@@ -1,13 +1,13 @@
 # bucket name
 
-variable "s3_bucket_name" {
+variable "bucket_name" {
   description = "S3 bucket name"
   type        = string
-  default     = "static-webpages-102345"
+  default     = "static-webpages-345"
 }
 
 # tags
-variable "s3_tags" {
+variable "bucket_tags" {
   description = "S3 bucket tags"
   type        = map(string)
   default = {
